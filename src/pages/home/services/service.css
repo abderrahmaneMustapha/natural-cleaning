@@ -1,0 +1,51 @@
+
+ .service-lead{
+    cursor: pointer;
+ }
+#services div.img-container{
+
+    width: 100%;
+    max-width: 100%;
+    
+    background-color: black;
+   
+}
+
+#services .img-container img{
+    display: block;
+    max-width: 100%;
+    opacity: 0.8;
+
+}
+
+#services .service-lead:hover img{
+    opacity: 0.5;
+}
+
+#services .service-text{
+    position: absolute;
+   
+    top: 3%;
+    bottom: auto;
+    left:10%;
+    right:3%;
+}
+
+#services  .service-lead:hover .service-text h3, #services  .service-lead:hover .service-text h3 svg{
+   text-decoration: underline;
+   color: white;
+
+}
+
+#services header{
+    font-size: large;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#services .intro{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
